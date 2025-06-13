@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../public/Logo.png";
+import { Menu, MenuSquareIcon } from "lucide-react";
 const Header = () => {
   let nav_data = [
     {
@@ -39,6 +40,9 @@ const Header = () => {
             </li>
            ))}
           </ul>
+          <div className="menu-button md:hidden block px-3">
+<Menu/>
+          </div>
         </nav>
       </div>
     </header>
