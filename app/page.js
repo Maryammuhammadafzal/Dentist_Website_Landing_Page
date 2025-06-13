@@ -3,6 +3,7 @@ import ServicesPage from "./Services/Page";
 import AboutPage from "./About/Page";
 import TeamPage from "./Team/Page";
 import TestimonialPage from "./Testimonial/Page";
+import HistoryPage from "./History/Page";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
   <AboutPage/>
   <TeamPage/>
   <TestimonialPage/>
+  <HistoryPage/>
   </div>
   );
 }
