@@ -32,7 +32,7 @@ const TeamPage = () => {
 
   return (
     <div className="w-full h-auto font-mono md:py-30 py-20 flex justify-center items-center relative">
-      <div className="object absolute top-50 right-20 w-auto -z-10 h-auto">
+      <div className="object absolute top-50 right-0 sm:right-20 w-auto -z-10 h-auto">
         <Image src={Vector} width={100} height={100} className="w-[450px]" />
       </div>
       <div className="w-full h-full flex justify-center items-center">
