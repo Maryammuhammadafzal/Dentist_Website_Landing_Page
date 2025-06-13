@@ -96,8 +96,8 @@ const TestimonialPage = () => {
             Hear from our satisfied patients:
           </p>
         </div>
-        <div className="testimonial slider py-4  w-full h-auto flex flex-col justify-start  items-start gap-6">
-          <Marquee className="flex w-auto py-4 h-auto justify-start gap-5">
+        <div className="testimonial overflow-hidden slider py-4  w-full h-auto flex flex-col justify-start  items-start">
+          <Marquee speed={20} pauseOnHover={true} gradient={false} autoFill={true} className="flex w-auto py-4 h-auto justify-start gap-5">
             {testimonial_data &&
               testimonial_data.map((testimonial, index) => (
                 <div
@@ -105,13 +105,13 @@ const TestimonialPage = () => {
                    className={`${index % 2 === 0 ? 'bg-primary text-white' : 'bg-white text-black'} mx-3 shadow-md shadow-primary/30  rounded-lg w-[300px] h-[155px] gap-3 flex flex-col justify-center items-center px-2`}
                 > 
                   <p className="w-auto h-auto text-center text-sm">{testimonial.description}</p>
-                  <h3 className="text-base max-xs:text-lg text-primary font-semibold">
+                  <h3 className={`${index % 2 === 0 ? 'text-white' : 'text-primary'} text-base max-xs:text-lg  font-semibold`}>
                     {testimonial.name}
                   </h3>
                 </div>
               ))}
           </Marquee>
-          <Marquee className="flex w-auto py-4 h-auto justify-start gap-5">
+          <Marquee speed={20} pauseOnHover={true} delay={6} gradient={false} autoFill={true} className=" flex w-auto py-4 h-auto justify-start gap-5">
             {testimonial_data &&
               testimonial_data.map((testimonial, index) => (
                 <div
@@ -119,7 +119,7 @@ const TestimonialPage = () => {
                   className={`${index % 2 === 0 ? 'bg-primary text-white' : 'bg-white text-black'} mx-3 shadow-md shadow-primary/30  rounded-lg w-[300px] h-[155px] gap-3 flex flex-col justify-center items-center px-2`}
                 >       
                   <p className="w-auto h-auto text-center text-sm">{testimonial.description}</p>
-                  <h3 className="text-base max-xs:text-lg text-primary font-semibold">
+                  <h3 className={`${index % 2 === 0 ? 'text-white' : 'text-primary'} text-base max-xs:text-lg  font-semibold`}>
                     {testimonial.name}
                   </h3>
                 </div>
