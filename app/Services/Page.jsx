@@ -15,46 +15,44 @@ const ServicesPage = () => {
                 {
                         title:"Cosmetic Dentistry",
                         list: [
-                                'Routine Cleanings & Exams',
-                                'Digital X-Rays',
-                                'Sealants & Fluoride Treatments',
-                                'Oral Cancer Screenings'
+                                'Teeth Whitening',
+                                'Porcelain Veneers',
+                                'Smile Makeovers',
+                                'Invisalign®'
                         ]
                 },
                 {
                         title:"Restorative Dentistry",
                         list: [
-                                'Routine Cleanings & Exams',
-                                'Digital X-Rays',
-                                'Sealants & Fluoride Treatments',
-                                'Oral Cancer Screenings'
+                                'Dental Crowns & Bridges',
+                                'Tooth-Colored Fillings',
+                                'Dentures & Partials',
+                                'Dental Implants'
                         ]
                 },
                 {
                         title:"Emergency Dental Care",
                         list: [
-                                'Routine Cleanings & Exams',
-                                'Digital X-Rays',
-                                'Sealants & Fluoride Treatments',
-                                'Oral Cancer Screenings'
+                                'Immediate Pain Relief',
+                                'Tooth Extractions',
+                                'Treatment for Dental Injuries',
                         ]
                 },
                 {
                         title:"Specialized Services",
                         list: [
-                                'Routine Cleanings & Exams',
-                                'Digital X-Rays',
-                                'Sealants & Fluoride Treatments',
-                                'Oral Cancer Screenings'
+                                'Pediatric Dentistry',
+                                'Periodontal Therapy',
+                                'Root Canal Therapy',
+                                'TMJ & Bite Disorders'
                         ]
                 },
                 {
                         title:"Orthodontics",
                         list: [
-                                'Routine Cleanings & Exams',
-                                'Digital X-Rays',
-                                'Sealants & Fluoride Treatments',
-                                'Oral Cancer Screenings'
+                                'Traditional Braces',
+                                'Invisalign® Clear Aligners',
+                                'Retainers & Post-Braces Care',
                         ]
                 },
 
@@ -77,15 +75,15 @@ const ServicesPage = () => {
               your unique needs:
             </p>
           </div>
-          <div className="cards w-full h-auto flex flex-wrap justify-center items-center gap-6 px-3">
+          <div className="cards w-full h-auto flex flex-wrap justify-center items-center gap-6 lg:px-3 p-1 max-xs:px-3">
             {service_data && service_data.map((service , index) => (
-                <div key={index} className="bg-white  rounded-lg hover:border hover:border-primary shadow-md  shadow-primary/20 w-[390px] h-[235px] p-2 gap-3 flex flex-col justify-center items-start px-6">
-              <h3 className="text-xl text-primary font-semibold">
+                <div key={index} className="bg-white  rounded-lg hover:border hover:border-primary shadow-md max-xs:w-full shadow-primary/20 w-[370px] h-[235px] p-2 gap-3 flex flex-col justify-center items-start px-6">
+              <h3 className="text-xl max-xs:text-lg text-primary font-semibold">
                 {service.title}
               </h3>
               <ul className="flex flex-col gap-1 pl-6 list-disc text-black">
               {service?.list?.map((list , i)=>(
-                  <li key={i}>{list}</li>
+                  <li className="max-xs:text-sm" key={i}>{list}</li>
               ))}
               </ul>
             </div>
