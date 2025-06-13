@@ -82,8 +82,8 @@ const ServicesPage = () => {
                 {service.title}
               </h3>
               <ul className="flex flex-col gap-1 pl-6 list-disc text-black">
-              {service?.list?.map((list , i)=>(
-                  <li className="max-xs:text-sm" key={i}>{list}</li>
+              {service?.list?.map((list , index)=>(
+                  <li key={index} className="max-xs:text-sm">{list}</li>
               ))}
               </ul>
             </div>

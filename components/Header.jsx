@@ -33,7 +33,7 @@ const Header = () => {
         <nav className="w-auto h-auto flex justify-center items-center ">
           <ul className="w-auto md:flex gap-1 justify-center items-center hidden">
            {nav_data.map(({link , name},index)=> (
-                 <li className="lg:p-2 p-[5px] flex justify-center items-center">
+                 <li key={index} className="lg:p-2 p-[5px] flex justify-center items-center">
               <a href={link} className="text-black hover:text-primary font-medium active:text-primary focus:text-primary text-sm lg:text-lg">
                 {name}
               </a>
