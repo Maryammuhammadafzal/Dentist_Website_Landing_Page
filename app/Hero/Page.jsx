@@ -33,6 +33,7 @@ const HeroPage = () => {
 
           <Image
             src={HeroImage.src}
+            alt="image"
             width={300}
             height={400}
             className="w-full h-full rounded-bl-[20%] object-center lg:object-bottom-right object-cover"

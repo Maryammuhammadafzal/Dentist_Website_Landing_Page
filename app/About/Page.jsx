@@ -35,6 +35,7 @@ const AboutPage = () => {
         <div className="object absolute -bottom-14 left-0 w-auto -z-10 h-auto">
             <Image
               src={Vector}
+              alt="image"
               width={100}
               height={100}
               className="w-[360px] "
@@ -45,6 +46,7 @@ const AboutPage = () => {
                 <Image 
                 src={AboutImage.src}
                 height={300}
+                alt="image"
                 width={300}
                 className="h-[600px] w-full rounded-br-[20%]"
                 />
@@ -72,10 +74,14 @@ const AboutPage = () => {
                     >
                         <div className="icon bg-white h-8 w-12 lg:absolute lg:-top-4 flex justify-center items-center left-[40%]">
                                 {
-                                index === 0 && <Image width={30} height={30} src={Icon1} /> ||
-                                index === 1 && <Image width={30} height={30} src={Icon2} /> ||
-                                index === 2 && <Image width={30} height={30} src={Icon3} /> ||
-                                index === 3 && <Image width={30} height={30} src={Icon4} /> 
+                                index === 0 && <Image 
+                                 width={30} height={30} src={Icon1} alt="image" /> ||
+                                index === 1 && <Image 
+                                 width={30} height={30} src={Icon2} alt="image" /> ||
+                                index === 2 && <Image 
+                                 width={30} height={30} src={Icon3} alt="image" /> ||
+                                index === 3 && <Image 
+                                 width={30} height={30} src={Icon4} alt="image" /> 
                                 }
                         </div>
                       <h3 className="text-xl max-xs:text-lg w-full py-2 text-center text-primary font-semibold">
