@@ -34,6 +34,7 @@ const AboutPage = () => {
     <div className="flex w-full min-h-screen relative justify-center items-center">
         <div className="object absolute -bottom-14 left-0 w-auto -z-10 h-auto">
             <Image
+            loading="lazy"
               src={Vector}
               alt="image"
               width={100}
@@ -44,6 +45,7 @@ const AboutPage = () => {
       <div className="xl:w-[90%] w-full flex justify-center  items-center gap-4 h-full">
         <div className="w-[40%] py-10 h-full md:flex hidden justify-center items-center">
                 <Image 
+                loading="lazy"
                 src={AboutImage.src}
                 height={300}
                 alt="image"
@@ -74,13 +76,13 @@ const AboutPage = () => {
                     >
                         <div className="icon bg-white h-8 w-12 lg:absolute lg:-top-4 flex justify-center items-center left-[40%]">
                                 {
-                                index === 0 && <Image 
+                                index === 0 && <Image  loading="lazy"
                                  width={30} height={30} src={Icon1} alt="image" /> ||
-                                index === 1 && <Image 
+                                index === 1 && <Image  loading="lazy"
                                  width={30} height={30} src={Icon2} alt="image" /> ||
-                                index === 2 && <Image 
+                                index === 2 && <Image  loading="lazy"
                                  width={30} height={30} src={Icon3} alt="image" /> ||
-                                index === 3 && <Image 
+                                index === 3 && <Image  loading="lazy"
                                  width={30} height={30} src={Icon4} alt="image" /> 
                                 }
                         </div>

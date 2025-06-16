@@ -61,7 +61,7 @@ const ServicesPage = () => {
   return (
     <div className="w-full h-auto font-mono md:py-30 py-20 flex justify-center items-center relative">
       <div className="object absolute top-50 right-0 w-auto -z-10 h-auto">
-        <Image src={Vector} alt="img" width={100} height={100} className="w-[360px]" />
+        <Image loading="lazy" src={Vector} alt="img" width={100} height={100} className="w-[360px]" />
       </div>
       <div className="w-full h-full flex justify-center items-center">
         <div className="w-auto flex flex-col gap-10 justify-center items-center">
