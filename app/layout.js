@@ -1,6 +1,7 @@
 import { Geist, DM_Sans } from "next/font/google";
 import "./globals.css";
 import HeroPage from "./Hero/Page";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
       >
         <HeroPage/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

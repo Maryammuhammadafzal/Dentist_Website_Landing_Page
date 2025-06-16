@@ -1,5 +1,6 @@
 import React from "react";
 import Vector from "../public/vector4.png";
+import Image from "next/image";
 const Footer = () => {
   return (
     <div className="w-full h-auto flex justify-center items-center bg-primary">
@@ -16,7 +17,7 @@ const Footer = () => {
       <div className="w-full h-full flex justify-center bg-primary text-white items-center">
         <div className="w-[90%] py-20 h-auto flex flex-col gap-4 justify-center ">
           <div className="w-full h-auto flex flex-col gap-4 justify-center ">
-            <div className="contact flex gap-3 ">
+            <div className="contact flex flex-col gap-3 ">
               <h2 className="flex gap-3 uppercase font-bold text-center font-mono lg:leading-20 2xl:leading-24 md:text-6xl max-xs:text-4xl text-5xl">
                 Contact Us!
               </h2>
