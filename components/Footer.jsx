@@ -25,6 +25,46 @@ const Footer = () => {
                 us today to schedule your appointment.
               </p>
             </div>
+            <div className="flex gap-4 justify-between w-full h-auto ">
+              <div className="flex flex-col gap-2">
+                <h4 className="">Social Media</h4>
+                <ul className="flex flex-row flex-wrap"></ul>
+              </div>
+              <div className="flex flex-col gap-2">
+                <h4 className="">Quick Links</h4>
+                <ul className="flex flex-col gap-1">
+                  <li>
+                    <a href="/">Home</a>
+                  </li>
+                  <li>
+                    <a href="/">Services</a>
+                  </li>
+                  <li>
+                    <a href="/">Why Choose Us?</a>
+                  </li>
+                  <li>
+                    <a href="/">Team</a>
+                  </li>
+                  <li>
+                    <a href="/">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex flex-col gap-2">
+                <h4 className="">Contact Details</h4>
+                <ul className="flex flex-col gap-1">
+                  <li className="text-sm">
+                   (208) 555-0112
+                  </li>
+                  <li className="text-sm">
+                   (208) 555-0112
+                  </li>
+                  <li className="text-sm">
+                   (208) 555-0112
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div className="copyright flex justify-center items-center ">
             © 2021 all copyright reserved.{" "}
