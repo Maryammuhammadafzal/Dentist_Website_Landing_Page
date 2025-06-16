@@ -57,10 +57,10 @@ const Footer = () => {
                    (208) 555-0112
                   </li>
                   <li className="text-sm">
-                   (208) 555-0112
+                   georgia.young@example.com
                   </li>
                   <li className="text-sm">
-                   (208) 555-0112
+                   4517 Washington Ave. Manchester, Kentucky 39495
                   </li>
                 </ul>
               </div>
