@@ -17,8 +17,8 @@ const Footer = () => {
         />
       </div>
       <div className="w-full h-full flex justify-center bg-primary text-white items-center">
-        <div className="w-[90%] py-20 h-auto flex flex-col gap-8 justify-center ">
-          <div className="w-full h-auto flex flex-col gap-4 justify-center ">
+        <div className="w-[90%] pt-20 h-auto flex flex-col gap-8 justify-center ">
+          <div className="w-full h-auto flex flex-col gap-6 justify-center ">
             <div className="contact flex flex-col ">
               <h2 className="flex gap-3 uppercase font-bold text-center font-mono lg:leading-20 2xl:leading-24 md:text-6xl max-xs:text-4xl text-5xl">
                 Contact Us!
@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="flex gap-10 lg:w-[70%] w-full justify-between h-auto ">
               <div className="flex flex-col gap-2">
                 <h4 className="font-semibold text-xl">Social Media</h4>
-                <ul className="flex flex-row flex-wrap gap-3 text-lg">
+                <ul className="flex flex-row flex-wrap gap-3 text-xl">
                   <li><CiFacebook/></li>
                   <li><CiInstagram/></li>
                   <li><CiLinkedin/></li>
@@ -74,7 +74,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="copyright flex justify-center items-end ">
+          <div className="copyright flex justify-center items-center py-3 ">
             © 2021 all copyright reserved.{" "}
             <a href="https://rootletsolutions.com/" className="border-b border-white">
               Rootlet Solution{" "}
