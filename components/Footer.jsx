@@ -15,9 +15,9 @@ const Footer = () => {
         />
       </div>
       <div className="w-full h-full flex justify-center bg-primary text-white items-center">
-        <div className="w-[90%] py-20 h-auto flex flex-col gap-4 justify-center ">
+        <div className="w-[90%] py-20 h-auto flex flex-col gap-8 justify-center ">
           <div className="w-full h-auto flex flex-col gap-4 justify-center ">
-            <div className="contact flex flex-col gap-3 ">
+            <div className="contact flex flex-col ">
               <h2 className="flex gap-3 uppercase font-bold text-center font-mono lg:leading-20 2xl:leading-24 md:text-6xl max-xs:text-4xl text-5xl">
                 Contact Us!
               </h2>
@@ -26,14 +26,14 @@ const Footer = () => {
                 us today to schedule your appointment.
               </p>
             </div>
-            <div className="flex gap-10 justify-between w-full h-auto ">
+            <div className="flex gap-10 lg:w-[70%] w-full justify-between h-auto ">
               <div className="flex flex-col gap-2">
                 <h4 className="font-semibold text-xl">Social Media</h4>
                 <ul className="flex flex-row flex-wrap"></ul>
               </div>
               <div className="flex flex-col gap-2">
-                <h4 className="">Quick Links</h4>
-                <ul className="flex flex-col gap-1">
+                <h4 className="font-semibold text-xl">Quick Links</h4>
+                <ul className="flex flex-col gap-1 text-sm">
                   <li>
                     <a href="/">Home</a>
                   </li>
@@ -52,7 +52,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="flex flex-col gap-2">
-                <h4 className="">Contact Details</h4>
+                <h4 className="font-semibold text-xl">Contact Details</h4>
                 <ul className="flex flex-col gap-1">
                   <li className="text-sm">
                    (208) 555-0112
@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
           <div className="copyright flex justify-center items-center ">
             © 2021 all copyright reserved.{" "}
-            <a href="" className="border-b border-white">
+            <a href="https://rootletsolutions.com/" className="border-b border-white">
               Rootlet Solution{" "}
             </a>
             .
