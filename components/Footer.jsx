@@ -1,6 +1,8 @@
 import React from "react";
 import Vector from "../public/vector4.png";
 import Image from "next/image";
+import { CiFacebook, CiInstagram , CiLinkedin, CiTwitter } from "react-icons/ci";
+
 const Footer = () => {
   return (
     <div className="w-full h-auto flex justify-center items-center bg-primary">
@@ -29,7 +31,12 @@ const Footer = () => {
             <div className="flex gap-10 lg:w-[70%] w-full justify-between h-auto ">
               <div className="flex flex-col gap-2">
                 <h4 className="font-semibold text-xl">Social Media</h4>
-                <ul className="flex flex-row flex-wrap"></ul>
+                <ul className="flex flex-row flex-wrap gap-3 text-lg">
+                  <li><CiFacebook/></li>
+                  <li><CiInstagram/></li>
+                  <li><CiLinkedin/></li>
+                  <li><CiTwitter/></li>
+                </ul>
               </div>
               <div className="flex flex-col gap-2">
                 <h4 className="font-semibold text-xl">Quick Links</h4>
@@ -67,7 +74,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="copyright flex justify-center items-center ">
+          <div className="copyright flex justify-center items-end ">
             © 2021 all copyright reserved.{" "}
             <a href="https://rootletsolutions.com/" className="border-b border-white">
               Rootlet Solution{" "}
