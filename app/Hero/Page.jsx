@@ -32,7 +32,6 @@ const HeroPage = () => {
           <div className="overlay max-md:block hidden w-full h-full  rounded-bl-[20%] bg-black/10 absolute top-0 left-0  z-10"></div>
 
           <Image
-          loading="lazy"
             src={HeroImage.src}
             alt="image"
             width={300}

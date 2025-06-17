@@ -33,7 +33,7 @@ const TeamPage = () => {
   return (
     <div className="w-full h-auto font-mono md:py-30 py-20 flex justify-center items-center relative">
       <div className="object absolute top-50 right-0 sm:right-20 w-auto -z-10 h-auto">
-        <Image loading="lazy" src={Vector} alt="image" width={100} height={100} className="w-[450px]" />
+        <Image src={Vector} alt="image" width={100} height={100} className="w-[450px]" />
       </div>
       <div className="w-full h-full flex justify-center items-center">
         <div className="w-auto flex flex-col gap-10 justify-center items-center">
@@ -55,7 +55,6 @@ const TeamPage = () => {
                 >
                   <div className="  rounded-xl hover:border-2 hover:border-primary max-xs:w-full  w-[270px] h-[330px] flex justify-center items-start ">
                     <Image
-                    loading="lazy"
                       src={team.image}
                       className="object-cover object-top w-full h-full rounded-xl"
                       height={200}
