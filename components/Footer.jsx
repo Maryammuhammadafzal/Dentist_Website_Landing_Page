@@ -26,9 +26,9 @@ const Footer = () => {
                 us today to schedule your appointment.
               </p>
             </div>
-            <div className="flex gap-4 justify-between w-full h-auto ">
+            <div className="flex gap-10 justify-between w-full h-auto ">
               <div className="flex flex-col gap-2">
-                <h4 className="">Social Media</h4>
+                <h4 className="font-semibold text-xl">Social Media</h4>
                 <ul className="flex flex-row flex-wrap"></ul>
               </div>
               <div className="flex flex-col gap-2">
